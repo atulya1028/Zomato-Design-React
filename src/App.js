@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import About from './pages/about';
 import Login from './pages/login';
+import Pizza from './pages/pizza';
 import $ from 'jquery'
 import './assets/css/style.css';
 import 'bootstrap';
@@ -43,6 +44,7 @@ function App() {
     <Route element={<Home />} path='/'/>
     <Route element={<Login />} path='/login' />
     <Route element={<About />} path='/about-us' /> 
+    <Route element={<Pizza />} path='/pizza' /> 
    </Routes>
    </BrowserRouter>
     </>
