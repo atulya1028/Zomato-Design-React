@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.div1{
+    border: 1px solid gainsboro; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input1{
+   width: 300px;
+   border: none;
+   outline: none;
+}
+
+.a1{
+    text-decoration: none;
+    color: gray;
+}
+
+ul li{
+    display: inline;
+    color: black;
+    font-size: 15px;
+}
+
+.owl-prev{
+    width: 22px;
+    left: 0px;
+    position: absolute;
+    top: 50px;
+   border-radius: 50% !important;
+   background: #fff !important;
+}
+
+.owl-next{
+    width: 22px;
+    right: 0px;
+    position: absolute;
+    top: 50px;
+    border-radius: 50% !important;
+    background: white !important;
+}
+
+.owl-prev:hover,.owl-next:hover{
+    color: #000 !important;
+    border-radius: 50% !important;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    gap: 20px; /* Adjust the gap between items */
+}
+
+/* Style for the grid items (you can customize this) */
+.grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.card-box:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.div-btn{
+    display: flex; 
+    padding-left: 80px;
+    gap: 10px;
+}
+
+.rating-style{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.rating-div{
+    background-color: green;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
